@@ -34,18 +34,18 @@ $utility-font-line-height: 16px;
 }
 
 // Color palettes
-$primary-color: #1f77b4;
-$primary-shade-1: #ff7f0e;
-$primary-shade-2: #bcbd22;
-$primary-shade-3: #8c564b;
+$primary-color: #004aaa; //Changed from G&M Default; Was #1f77b4
+$primary-shade-1: #aa004a; //Changed from G&M Default; Was #ff7f0e
+$primary-shade-2: #aa6000; //Changed from G&M Default; Was #bcbd22
+$primary-shade-3: #3b8800; //Changed from G&M Default; Was #8c564b
 $primary-shade-4: #7f7f7f;
 $primaryShades: $primary-color, $primary-shade-1, $primary-shade-2, $primary-shade-3, $primary-shade-4;
 
-$alternate-color: #6b6ecf;
-$alternate-shade-1: #b5cf6b;
-$alternate-shade-2: #e7ba52;
-$alternate-shade-3: #d6616b;
-$alternate-shade-4: #ce6dbd;
+$alternate-color: #004aaa; //Changed from G&M Default; Was #6b6ecf
+$alternate-shade-1: lighten($alternate-color, 20); //Changed from G&M Default; Was #b5cf6b
+$alternate-shade-2: lighten($alternate-color, 30); //Changed from G&M Default; Was #e7ba52
+$alternate-shade-3: lighten($alternate-color, 40); //Changed from G&M Default; Was #d6616b
+$alternate-shade-4: lighten($alternate-color, 50); //Changed from G&M Default; Was #ce6dbd
 $alternateShades: $alternate-color, $alternate-shade-1, $alternate-shade-2, $alternate-shade-3, $alternate-shade-4;
 
 $grayscale-color: #000000;

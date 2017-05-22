@@ -98,8 +98,8 @@
   },
 
   "source": {
-    "prefix": "CHART TOOL",
-    "suffix": " » SOURCE:"
+    "prefix": "KBIA 2017",
+    "suffix": " - SOURCE:"
   },
 
   "social": {
@@ -126,7 +126,7 @@
   },
 
   "image": {
-    "enable": false,
+    "enable": true,
     "base_path": "",
     "expiration": 30000,
     "filename": "thumbnail",
@@ -134,7 +134,7 @@
     "thumbnailWidth": 460
   },
 
-  "embedJS": "http://beta.images.theglobeandmail.com/static/templates/tools/chart-tool/1.2.0/chart-tool.min.js",
-  "embedCSS": "http://beta.images.theglobeandmail.com/static/templates/tools/chart-tool/1.2.0/chart-tool.min.css"
+  "embedJS": "https://s3.amazonaws.com/apps.kbia.org/chart-tool/chart-tool.min.js",
+  "embedCSS": "https://s3.amazonaws.com/apps.kbia.org/chart-tool/chart-tool.min.css"
 
 }
